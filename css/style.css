@@ -1,0 +1,305 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('images/pozadina5.jpg');
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	 text-align: center;
+	 margin-top: 50px;
+	 font-size: 20px;
+	 font-weight :600;
+     color: #734F96;
+}
+
+header {
+	background-color: #808080;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 35px;
+	border-bottom: 1px solid #6b0099;
+}
+
+a:link, a:visited {
+	color: #fff;
+	padding: 16px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color: #734F96;
+}
+
+#login {
+	border: 1px solid  #6b0099;
+	width: 40%;
+	height: 250px;
+	margin: 150px auto;
+	padding: 25px 55px;
+	border-radius: 12px;
+	background-color: #fff;
+	color:  #6b0099;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;;
+}
+
+#loginButton {
+	width: 70px;
+	background-color: #734f96;
+	color: beige;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-right: -10px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+#loginButton:hover {
+	cursor: pointer;
+	background-color: #696969;
+}
+
+#msg {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 18px;
+	
+}
+
+input[name="login"]:hover {
+
+     cursor: pointer;
+     background-color: #696969;
+}
+
+input[type="text"] {
+
+	border: 1px solid black;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 11px;
+	text-indent: 5px;
+	line-height: 25px;
+	width: 100%;
+
+}
+
+input[type="password"] {
+
+	border: 1px solid black;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 10px;
+	line-height: 20px;
+	text-indent: 5px;
+	line-height: 25px;
+	width: 100%;
+
+}
+
+#options {
+	width: 60%;
+	margin: 30px auto;
+	font-size: 18px;
+}
+
+#options input[type="submit"] {
+
+	border: 1px solid black;
+	width: 170px;
+	height: 35px;
+	border-radius: 4px;
+	color: #6b0099;
+	background-color: #fff;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#options input[type="submit"]:hover {
+
+	color: #fff;
+	background-color: #734F96;
+}
+
+#search {
+	border: 1px solid  #6b0099;
+	border-radius: 5px;
+	width: 42%;
+	height: 335px;
+	margin: 50px auto;
+	background-color: #f2f2f2;
+	padding: 35px;
+	color: #6b0099;
+	font-size: 18px;
+
+}
+
+#search select {
+
+	width: 30%;
+	margin: 5px;
+}
+
+#search input[type="submit"] {
+
+	background-color: #734F96;
+	border: 1px solid black;
+	border-radius: 4px;
+	color: #fff;
+	width: 100px;
+	padding: 5px 10px;
+	margin-top: 30px;
+	float: right;
+}
+
+#search input[type="submit"]:hover {
+
+	background-color: #696969;
+	cursor: pointer;
+}
+
+table {
+
+	border-collapse: collapse;
+	margin: 50px auto;
+	width: 90%;
+	border: 1px solid #fff;
+}
+
+table tr {
+
+	background-color: #808080;
+	color: #fff;
+}
+
+table tr:hover {
+	background-color: #734F96;
+	cursor: pointer;
+}
+
+table td,th {
+
+	padding: 10px;
+	font-size: 18px;
+}
+
+table input[type="submit"]{
+	border: 1px solid black;
+	border-radius: 4px;
+	background-color: #f2f2f2;
+	width: 70px;
+	padding: 3px 5px;
+	cursor: pointer;
+}
+
+table input[type="submit"]:hover {
+
+	color: #fff;
+	background-color: #696969;
+}
+
+#add {
+
+	width: 30%;
+	margin: auto;
+	color: #6b0099;
+	font-size: 18px;
+	border: 1px solid #6b0099;
+	background-color: #f2f2f2;
+	border-radius: 11px;
+	padding: 30px 35px;
+	margin-bottom: 50px;
+}
+
+#add select {
+
+	width: 150px;
+	margin: 5px;
+}
+
+#add input[type="submit"] {
+
+	width: 90%;
+	padding: 10px 0;
+	color: beige;
+	background-color: #734F96;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#add input[type="submit"]:hover {
+
+	cursor: pointer;
+	background-color: #696969;
+}
+
+#regDiv {
+
+	border: 1px solid #6b0099;
+	width: 40%;
+	height: 850px;
+	margin: 50px auto;
+	background-color: #f2f2f2;
+	border-radius: 11px;
+	font-size: 18px;
+	color: #6b0099;
+	padding: 40px;
+}
+
+#register h2 {
+
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#register input[type="email"]{
+
+	border: 1px solid black;
+	border-radius: 4px;
+	margin: 11px 11px 25px 11px;
+	text-indent: 5px;
+	line-height: 25px;
+	width: 100%;
+}
+
+#register input {
+
+	margin-bottom: 25px;
+}
+
+#register input[type="submit"]{
+
+	width: 200px;
+	padding: 7px 0;
+	margin-top: 30px;
+	float: right;
+	border: 1px solid black;
+	background-color: #734F96;
+	color: beige;
+	border-radius: 4px;
+}
+
+#register input[type="submit"]:hover {
+
+	cursor: pointer;
+	background-color: #696969;
+}
+
+span{
+    color: red;
+    font-size: 12px;
+    padding: 5px;
+    position: relative;
+    bottom: 24px;
+    float: right;
+    left: 10px;
+}
