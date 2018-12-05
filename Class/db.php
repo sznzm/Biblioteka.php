@@ -8,7 +8,7 @@ Class DB {
 
 	private $servername = "localhost";
 	private $username = "root";
-	private $password = "53h3m";
+	private $password = "";
 	private $dbname = "biblioteka";
 
 	function __construct(){
